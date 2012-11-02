@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Sandy::VERSION
   gem.authors       = ["Cameron Cundiff"]
   gem.email         = ["ckundo@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Present a simple API to consume power outage data for the Greater New York area.}
+  gem.summary       = %q{Power outage data for ConEd in NYC}
+  gem.homepage      = "http://www.github.com/ckundo/sandy"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
