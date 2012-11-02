@@ -1,5 +1,22 @@
 # Sandy
 
+Rubygem for consuming power outage data for the Greater New York area. Currently supports ConEd.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'sandy'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install sandy
+
+
 ## Usage
 
 ### ConEd
@@ -43,24 +60,6 @@ Neighborhoods:
     Riverdale (40.89, -73.9) 3801 out of 34772
     Southeast Bronx (40.83, -73.82) 5919 out of 89736
     ...
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'sandy'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install sandy
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
