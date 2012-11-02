@@ -1,6 +1,6 @@
 module Sandy
   class Area
-    attr_reader :name, :region, :customers_affected, :latitude, :longitude
+    attr_reader :name, :region, :customers_affected, :latitude, :longitude, :total_customers
 
     def initialize(customers_affected, location, options = {})
       @name = location
