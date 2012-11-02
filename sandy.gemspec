@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Sandy::VERSION
   gem.authors       = ["Cameron Cundiff"]
   gem.email         = ["ckundo@gmail.com"]
-  gem.description   = %q{Present a simple API to consume power outage data for the Greater New York area.}
+  gem.description   = %q{Presents a simple API to consume power outage data for the Greater New York area.}
   gem.summary       = %q{Power outage data for ConEd in NYC}
   gem.homepage      = "http://www.github.com/ckundo/sandy"
 
