@@ -19,7 +19,9 @@ module Sandy::Provider
       def regions_from_report(areas)
         areas.collect do |area|
           Sandy::Area.new(area.fetch("custs_out"), area.fetch("area_name"),
-                          { latitude: area["latitude"], longitude: area["longitude"] })
+                          { latitude: area["latitude"], 
+                            longitude: area["longitude"],
+                            total_customers: area["total_custs"] })
 
         end
       end
@@ -30,6 +32,7 @@ module Sandy::Provider
           area["areas"].each do |sub_area|
             neighborhoods << Sandy::Area.new(sub_area.fetch("custs_out"), sub_area.fetch("area_name"),
                             { region: area["area_name"], 
+                              total_customers: sub_area["total_custs"],
                               latitude: sub_area["latitude"], 
                               longitude: sub_area["longitude"] })
           end
