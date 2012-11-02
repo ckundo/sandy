@@ -1,6 +1,40 @@
 # Sandy
 
-TODO: Write a gem description
+## Usage
+
+### ConEd
+    report = Sandy::Provider::ConEd::Report.new
+
+#### Regions
+    regions = report.regions
+    regions.each do |region|
+      puts "#{region.name}, #{region.customers_affected}"
+    end
+
+Outputs:
+    Bronx, 28644
+    Brooklyn, 37016
+    Manhattan, 226225
+    Queens, 85057
+    Staten Island, 58043
+    Westchester, 123571
+
+Also available are `region.latitude`, `region.longitude`, and `region.total_customers` (see neighborhoods section)
+
+#### Neighborhoods
+
+    neighborhoods = report.neighborhoods
+    neighborhoods.each do |neighborhood|
+      puts "#{neighborhood.name} (#{neighborhood.latitude}, #{neighborhood.longitude}) #{neighborhood.customers_affected} out of #{neighborhood.total_customers}"
+    end
+
+Outputs:
+    Central Bronx (40.82, -73.86) 26 out of 44452
+    Fordham (40.86, -73.9) 164 out of 114772
+    Northeast Bronx (40.87, -73.82) 13139 out of 79942
+    Riverdale (40.89, -73.9) 3801 out of 34772
+    Southeast Bronx (40.83, -73.82) 5919 out of 89736
+    ...
 
 ## Installation
 
