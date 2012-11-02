@@ -1,5 +1,5 @@
 require "sandy/version"
+require "sandy/provider"
 
 module Sandy
-  # Your code goes here...
 end
