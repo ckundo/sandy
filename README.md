@@ -1,6 +1,7 @@
 # Sandy
 
 Rubygem for consuming power outage data for the Greater New York area. Currently supports ConEd.
+[![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)(https://travis-ci.org/ckundo/sandy)
 
 ## Installation
 
