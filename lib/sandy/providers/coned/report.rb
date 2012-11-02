@@ -25,14 +25,16 @@ module Sandy::Provider
       end
 
       def neighborhoods_from_report(areas)
-        areas.collect do |area|
+        neighborhoods = []
+        areas.each do |area|
           area["areas"].each do |sub_area|
-            Sandy::Area.new(sub_area.fetch("custs_out"), sub_area.fetch("area_name"),
+            neighborhoods << Sandy::Area.new(sub_area.fetch("custs_out"), sub_area.fetch("area_name"),
                             { region: area["area_name"], 
                               latitude: sub_area["latitude"], 
                               longitude: sub_area["longitude"] })
           end
         end
+        neighborhoods
       end
 
       def coned_url
