@@ -29,5 +29,11 @@ describe Sandy::Area do
     its(:latitude) { should == 70.5 }
     its(:longitude) { should == -115.5 }
   end
+
+  context "with lat/lng" do
+    let(:etr) { Time.now + 600 }
+    subject { Sandy::Area.new(customers_affected, nil, { estimated_recovery_time: etr }) }
+    its(:estimated_recovery_time) { should == etr }
+  end
 end
 

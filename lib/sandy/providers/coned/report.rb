@@ -21,6 +21,7 @@ module Sandy::Provider
           Sandy::Area.new(area.fetch("custs_out"), area.fetch("area_name"),
                           { latitude: area["latitude"], 
                             longitude: area["longitude"],
+                            estimated_recovery_time: area["etr"],
                             total_customers: area["total_custs"] })
 
         end
@@ -33,6 +34,7 @@ module Sandy::Provider
             neighborhoods << Sandy::Area.new(sub_area.fetch("custs_out"), sub_area.fetch("area_name"),
                             { region: area["area_name"], 
                               total_customers: sub_area["total_custs"],
+                              estimated_recovery_time: sub_area["etr"],
                               latitude: sub_area["latitude"], 
                               longitude: sub_area["longitude"] })
           end
