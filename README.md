@@ -21,10 +21,12 @@ Or install it yourself as:
 ## Usage
 
 ### ConEd
-The ConEd outage feed is only updated every 15 minutes. Repeated polling won't get you new results.
-You can schedule a task to run every 15 minutes and you'll have up to date results.
 
-Example:
+#### Polling
+
+The ConEd outage feed is only updated every 15 minutes. Repeated polling won't get you new results.
+
+#### Example
 
     report = Sandy::Provider::ConEd::Report.new
 
@@ -44,8 +46,6 @@ Regions:
     Staten Island, 58043
     Westchester, 123571
 
-Also available are `region.latitude`, `region.longitude`, and `region.total_customers` (see neighborhoods section)
-
 Neighborhoods:
 
     neighborhoods = report.neighborhoods
@@ -61,6 +61,16 @@ Neighborhoods:
     Riverdale (40.89, -73.9) 3801 out of 34772
     Southeast Bronx (40.83, -73.82) 5919 out of 89736
     ...
+
+#### Methods
+
+    Area#name
+    Area#customers_affected
+    Area#region - returns a string of the parent region name for a neighborhood)
+    Area#latitude
+    Area#longitude
+    Area#total_customers
+    Area#estimated_recovery_time
 
 ## Contributing
 
