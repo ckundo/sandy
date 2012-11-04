@@ -8,6 +8,8 @@ module Sandy::Provider
         area_hash = raw_report.fetch("root").fetch("curr_custs_aff")["areas"]["area"]["areas"].first[1]
         @regions = regions_from_report(area_hash)
         @neighborhoods = neighborhoods_from_report(area_hash)
+      rescue
+        raise LoadError, "ConEd reponse was not recognizable."
       end
       
       private

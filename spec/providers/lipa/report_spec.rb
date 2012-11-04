@@ -2,11 +2,11 @@ require "spec_helper"
 
 describe Sandy::Provider::LIPA::Report do
   describe ".initialize" do
-    context "with no response" do
-      xit "raises an error" 
-    end
     context "with an empty response" do
-      xit "raises an error"
+      before { HTTParty.stub(:get).and_return("") }
+      it "raises an informative error" do
+        expect { Sandy::Provider::LIPA::Report.new }.to raise_error(LoadError, "ConEd reponse was not recognizable.")
+      end
     end
   end
 
