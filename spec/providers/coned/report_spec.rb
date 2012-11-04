@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Sandy::Provider::ConEd::Report, :vcr do
+describe Sandy::Provider::ConEd::Report do
   describe ".initialize" do
     context "with no response" do
       it "raises an error" do
