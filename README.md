@@ -1,6 +1,6 @@
 # Sandy
 
-Rubygem for consuming power outage data for the Greater New York area. Currently supports ConEd.
+Rubygem for consuming power outage data for the Greater New York area. Currently supports ConEd and LIPA.
 [![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)](https://travis-ci.org/ckundo/sandy)
 
 ## Installation
@@ -20,15 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-### ConEd
-
-#### Polling
+### A note on Polling
 
 The ConEd outage feed is only updated every 15 minutes. Repeated polling won't get you new results.
 
-#### Example
+### Example
 
     report = Sandy::Provider::ConEd::Report.new
+
+or
+
+    report = Sandy::Provider::LIPA::Report.new
 
 Regions:
 
