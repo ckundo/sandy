@@ -30,7 +30,7 @@ and depending on the provider, total customers, lat/lng, and estimated time of r
       puts "#{region.name}, #{region.customers_affected}"
     end
 
-# returns => 
+    # => 
 
     Bronx, 28644
     Brooklyn, 37016
@@ -46,7 +46,7 @@ Neighborhoods are a subset of regions:
       puts "#{neighborhood.name} (#{neighborhood.latitude}, #{neighborhood.longitude}) #{neighborhood.customers_affected} out of #{neighborhood.total_customers}"
     end
 
-=> 
+    # => 
 
     Central Bronx (40.82, -73.86) 26 out of 44452
     Fordham (40.86, -73.9) 164 out of 114772
@@ -58,6 +58,10 @@ Neighborhoods are a subset of regions:
 ### A note on Polling
 
 The ConEd outage feed is only updated every 15 minutes. Repeated polling won't get you new results.
+
+## Powered by the sandy gem
+
+* [NYC Power Status](http://nycpowerstatus.com/) - vizualizations of power outages by neighborhood in NYC
 
 ## Installation
 
