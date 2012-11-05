@@ -3,21 +3,6 @@
 Rubygem for consuming power outage data for the Greater New York area. Currently supports ConEd and LIPA.
 [![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)](https://travis-ci.org/ckundo/sandy)
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'sandy'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install sandy
-
-
 ## Usage
 
 ### A note on Polling
@@ -73,6 +58,20 @@ Neighborhoods:
     Area#longitude
     Area#total_customers
     Area#estimated_recovery_time
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'sandy'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install sandy
 
 ## Contributing
 
