@@ -13,7 +13,7 @@ The ConEd outage feed is only updated every 15 minutes. Repeated polling won't g
 
     Area#name
     Area#customers_affected
-    Area#region - returns a string of the parent region name for a neighborhood)
+    Area#region
     Area#latitude
     Area#longitude
     Area#total_customers
