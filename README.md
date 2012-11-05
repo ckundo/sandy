@@ -60,10 +60,6 @@ Neighborhoods are a subset of regions:
 
 The ConEd outage feed is only updated every 15 minutes. Repeated polling won't get you new results.
 
-## Powered by the sandy gem
-
-* [NYC Power Status](http://nycpowerstatus.com/) - vizualizations of power outages by neighborhood in NYC
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -85,3 +81,7 @@ Or install it yourself as:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Powered by the sandy gem
+
+* [NYC Power Status](http://nycpowerstatus.com/) - vizualizations of power outages by neighborhood in NYC
