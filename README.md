@@ -5,6 +5,9 @@ as well as total customers, lat/lng, and estimated time of recovery (depending o
 
 Currently supports ConEd and LIPA.
 
+_Note: LIPA has pulled data for Rockaway Peninsula, Long Beach, Atlantic Beach,  and Fire Island.
+This will limit the behavior of that provider class._
+
 ## Usage
 
 ### Providers
