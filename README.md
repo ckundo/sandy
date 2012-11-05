@@ -53,7 +53,6 @@ Neighborhoods are a subset of regions:
     Fordham (40.86, -73.9) 164 out of 114772
     Northeast Bronx (40.87, -73.82) 13139 out of 79942
     Riverdale (40.89, -73.9) 3801 out of 34772
-    Southeast Bronx (40.83, -73.82) 5919 out of 89736
     ...
 
 ### A note on Polling
