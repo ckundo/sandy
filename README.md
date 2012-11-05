@@ -1,8 +1,9 @@
-# Sandy
+# Sandy [![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)](https://travis-ci.org/ckundo/sandy)
 
-Rubygem for consuming power outage data for the Greater New York area. Retrieve customers affected by area,
-and depending on the provider, total customers, lat/lng, and estimated time of recovery. Currently supports ConEd and LIPA.
-[![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)](https://travis-ci.org/ckundo/sandy)
+Sandy is a rubygem for consuming power outage data for the Greater New York area. For a given area, retrieve number of outages,
+as well as total customers, lat/lng, and estimated time of recovery (depending on the provider). 
+
+Currently supports ConEd and LIPA.
 
 ## Usage
 
