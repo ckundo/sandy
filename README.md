@@ -9,6 +9,16 @@ Rubygem for consuming power outage data for the Greater New York area. Currently
 
 The ConEd outage feed is only updated every 15 minutes. Repeated polling won't get you new results.
 
+### Important Methods
+
+    Area#name
+    Area#customers_affected
+    Area#region - returns a string of the parent region name for a neighborhood)
+    Area#latitude
+    Area#longitude
+    Area#total_customers
+    Area#estimated_recovery_time
+
 ### Example
 
     report = Sandy::Provider::ConEd::Report.new
@@ -16,8 +26,6 @@ The ConEd outage feed is only updated every 15 minutes. Repeated polling won't g
 or
 
     report = Sandy::Provider::LIPA::Report.new
-
-Regions:
 
     regions = report.regions
     regions.each do |region|
@@ -33,7 +41,7 @@ Regions:
     Staten Island, 58043
     Westchester, 123571
 
-Neighborhoods:
+Neighborhoods are a subset of regions:
 
     neighborhoods = report.neighborhoods
     neighborhoods.each do |neighborhood|
@@ -49,15 +57,6 @@ Neighborhoods:
     Southeast Bronx (40.83, -73.82) 5919 out of 89736
     ...
 
-#### Methods
-
-    Area#name
-    Area#customers_affected
-    Area#region - returns a string of the parent region name for a neighborhood)
-    Area#latitude
-    Area#longitude
-    Area#total_customers
-    Area#estimated_recovery_time
 
 ## Installation
 
