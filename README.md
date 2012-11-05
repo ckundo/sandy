@@ -1,6 +1,7 @@
 # Sandy
 
-Rubygem for consuming power outage data for the Greater New York area. Currently supports ConEd and LIPA.
+Rubygem for consuming power outage data for the Greater New York area. Retrieve customers affected by area,
+and depending on the provider, total customers, lat/lng, and estimated time of recovery. Currently supports ConEd and LIPA.
 [![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)](https://travis-ci.org/ckundo/sandy)
 
 ## Usage
