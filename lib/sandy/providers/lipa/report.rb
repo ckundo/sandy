@@ -1,3 +1,4 @@
+require 'tzinfo'
 module Sandy::Provider
   module LIPA
     class Report
@@ -22,8 +23,8 @@ module Sandy::Provider
       def lipa_url
         base_uri = "http://stormcenter.lipower.org"
 
-        #FIXME: verify timezone is in NYC zone
-        time = Time.now.to_i
+        tz = TZInfo::Timezone.get('America/New_York')
+        time = tz.now.to_i
         directory_url = "#{base_uri}/data/interval_generation_data/metadata.xml?timestamp=#{time}"
         response = HTTParty.get(directory_url, format: :xml)
         directory = response.parsed_response.fetch("root").fetch("directory")
