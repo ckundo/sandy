@@ -10,14 +10,8 @@ describe Sandy::Provider::ConEd::Report do
     end
   end
 
-  describe "#regions" do
-    subject { Sandy::Provider::ConEd::Report.new.regions }
-    it { should be_an_instance_of Array }
-    it { should_not be_empty }
-  end
-
-  describe "#neighborhoods" do
-    subject { Sandy::Provider::ConEd::Report.new.neighborhoods }
+  describe "#areas" do
+    subject { Sandy::Provider::ConEd::Report.new.areas }
     it { should be_an_instance_of Array }
     it { should_not be_empty }
   end

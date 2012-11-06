@@ -10,14 +10,8 @@ describe Sandy::Provider::LIPA::Report do
     end
   end
 
-  describe "#regions" do
-    subject { Sandy::Provider::LIPA::Report.new.regions }
-    it { should be_an_instance_of Array }
-    it { should_not be_empty }
-  end
-
-  describe "#neighborhoods" do
-    subject { Sandy::Provider::LIPA::Report.new.neighborhoods }
+  describe "#areas" do
+    subject { Sandy::Provider::LIPA::Report.new.areas }
     it { should be_an_instance_of Array }
     it { should_not be_empty }
   end

@@ -19,7 +19,7 @@ describe Sandy::Area do
 
   context "with a region name" do
     describe "#parent_region" do
-      subject { Sandy::Area.new(customers_affected, nil, { region: "Manhattan" }).region }
+      subject { Sandy::Area.new(customers_affected, nil, { parent: "Manhattan" }).parent }
       it { should == "Manhattan" }
     end
   end
