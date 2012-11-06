@@ -1,7 +1,8 @@
 module Sandy
   class Area
     attr_reader :name, 
-      :region, 
+      :parent,
+      :children,
       :customers_affected, 
       :latitude, 
       :longitude, 
@@ -11,11 +12,12 @@ module Sandy
     def initialize(customers_affected, location, options = {})
       @name = location
       @customers_affected = customers_affected
-      @region = options[:region]
+      @parent = options[:parent]
       @total_customers = options[:total_customers]
       @latitude = options[:latitude]
       @longitude = options[:longitude]
       @estimated_recovery_time = options[:estimated_recovery_time]
+      @children = options[:children]
     end
   end
 end
