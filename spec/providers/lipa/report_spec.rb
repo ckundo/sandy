@@ -5,7 +5,7 @@ describe Sandy::Provider::LIPA::Report do
     context "with an empty response" do
       before { HTTParty.stub(:get).and_return("") }
       it "raises an informative error" do
-        expect { Sandy::Provider::LIPA::Report.new }.to raise_error(LoadError, "ConEd reponse was not recognizable.")
+        expect { Sandy::Provider::LIPA::Report.new }.to raise_error(LoadError, "LIPA response was not recognizable.")
       end
     end
   end

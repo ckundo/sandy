@@ -14,7 +14,7 @@ module Sandy::Provider
         )
 
       rescue
-        raise LoadError, "ConEd reponse was not recognizable."
+        raise LoadError, "ConEd response was not recognizable."
       end
 
       private

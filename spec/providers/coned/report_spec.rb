@@ -5,7 +5,7 @@ describe Sandy::Provider::ConEd::Report do
     context "with an empty response" do
       before { HTTParty.stub(:get).and_return("") }
       it "raises an informative error" do
-        expect { Sandy::Provider::ConEd::Report.new }.to raise_error(LoadError, "ConEd reponse was not recognizable.")
+        expect { Sandy::Provider::ConEd::Report.new }.to raise_error(LoadError, "ConEd response was not recognizable.")
       end
     end
   end

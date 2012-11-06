@@ -15,7 +15,7 @@ module Sandy::Provider
         )
 
       rescue
-        raise LoadError, "LIPA reponse was not recognizable."
+        raise LoadError, "LIPA response was not recognizable."
       end
       
       private
