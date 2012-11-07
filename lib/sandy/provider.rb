@@ -1,7 +1,4 @@
-require "sandy/providers/coned"
-require "sandy/providers/lipa"
-
 module Sandy
-  module Provider
+  class Provider
   end
 end
