@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency("httparty", "~> 0.9.0")
   gem.add_dependency("tzinfo", "~> 0.3.35")
+  gem.add_dependency("libxml-ruby", "~> 2.3.3")
   
   gem.add_development_dependency("rake")
   gem.add_development_dependency("rspec", "~> 2.11.0")
