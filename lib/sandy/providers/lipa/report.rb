@@ -31,6 +31,9 @@ module Sandy::Provider
         "#{base_uri}/data/interval_generation_data/#{directory}/data.xml?timestamp=#{time}"
       end
 
+      def path
+        File.dirname(__FILE__)
+      end
     end
   end
 end

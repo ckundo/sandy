@@ -27,6 +27,9 @@ module Sandy::Provider
         "#{base_uri}/stormcenter_external/stormcenter_externaldata/data/interval_generation_data/#{directory}/report.js"
       end
 
+      def path
+        File.dirname(__FILE__)
+      end
     end
   end
 end
