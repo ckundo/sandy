@@ -27,7 +27,7 @@ module Sandy::Provider
             name = p.find_first('ms:county').content.to_s
             customers_affected = p.find_first('ms:outage').content.to_s
 
-            latitude, longitude = cached_coordinates_for report_area
+            latitude, longitude = cached_coordinates_for name.downcase
 
             options = {
               :latitude => latitude,
