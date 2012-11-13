@@ -1,0 +1,361 @@
+---
+bronx:
+  :latitude: '40.85'
+  :longitude: '-73.866667'
+central bronx:
+  :latitude: '40.8378381'
+  :longitude: '-73.8629236'
+fordham:
+  :latitude: '40.8606677'
+  :longitude: '-73.8910629'
+northeast bronx:
+  :latitude: '40.85'
+  :longitude: '-73.866667'
+riverdale:
+  :latitude: '40.8940853'
+  :longitude: '-73.9109977'
+southeast bronx:
+  :latitude: '40.85'
+  :longitude: '-73.866667'
+west bronx:
+  :latitude: '40.8519547'
+  :longitude: '-73.900709'
+brooklyn:
+  :latitude: '40.65'
+  :longitude: '-73.95'
+bay ridge:
+  :latitude: '40.6261638'
+  :longitude: '-74.0329499'
+borough hall:
+  :latitude: '40.693219'
+  :longitude: '-73.989998'
+brighton beach:
+  :latitude: '40.5775751'
+  :longitude: '-73.9609634'
+crown heights:
+  :latitude: '40.6681032'
+  :longitude: '-73.9447994'
+flatbush:
+  :latitude: '40.6409217'
+  :longitude: '-73.9624327'
+ocean parkway:
+  :latitude: '40.6168144'
+  :longitude: '-73.9699589'
+park slope:
+  :latitude: '40.6681669'
+  :longitude: '-73.9800645'
+prospect park:
+  :latitude: '40.6617921'
+  :longitude: '-73.969555'
+ridgewood:
+  :latitude: '40.7108476'
+  :longitude: '-73.8977693'
+sheepshead bay:
+  :latitude: '40.5975847'
+  :longitude: '-73.9536163'
+williamsburg:
+  :latitude: '40.7064461'
+  :longitude: '-73.9536163'
+manhattan:
+  :latitude: '40.7841484'
+  :longitude: '-73.9661407'
+battery park city:
+  :latitude: '40.7033262'
+  :longitude: '-74.0171778'
+beekman:
+  :latitude: '40.7108437'
+  :longitude: '-74.0056574'
+bowling green:
+  :latitude: '40.7052515'
+  :longitude: '-74.0127802'
+canal:
+  :latitude: '40.733592'
+  :longitude: '-73.991404'
+central park:
+  :latitude: '40.7769018'
+  :longitude: '-73.9754748'
+chelsea:
+  :latitude: '40.7497717'
+  :longitude: '-73.9976946'
+city hall:
+  :latitude: '40.7129755'
+  :longitude: '-74.0061418'
+columbus circle:
+  :latitude: '40.7680766'
+  :longitude: '-73.981909'
+cooper square:
+  :latitude: '40.7287973'
+  :longitude: '-73.990808'
+cortlandt:
+  :latitude: '40.710332'
+  :longitude: '-74.011246'
+empire:
+  :latitude: '40.7483169'
+  :longitude: '-73.9855292'
+fashion:
+  :latitude: '40.7513938'
+  :longitude: '-73.9905309'
+freedom:
+  :latitude: '40.7778625'
+  :longitude: '-73.9877754'
+fulton:
+  :latitude: '40.710368'
+  :longitude: '-74.009509'
+grand central:
+  :latitude: '40.752998'
+  :longitude: '-73.977056'
+greeley square:
+  :latitude: '40.7487038'
+  :longitude: '-73.9884031'
+greenwich:
+  :latitude: '40.733592'
+  :longitude: '-73.991404'
+harlem:
+  :latitude: '40.8113824'
+  :longitude: '-73.9447994'
+herald square:
+  :latitude: '40.7487038'
+  :longitude: '-73.9884031'
+hudson:
+  :latitude: '41.2125676'
+  :longitude: '-73.9477384'
+hunter:
+  :latitude: '40.7683607'
+  :longitude: '-73.9644531'
+kips bay:
+  :latitude: '40.7423292'
+  :longitude: '-73.9800645'
+lenox hill:
+  :latitude: '40.7645239'
+  :longitude: '-73.9624327'
+lincoln square:
+  :latitude: '40.773828'
+  :longitude: '-73.9844722'
+madison square:
+  :latitude: '40.743275'
+  :longitude: '-73.988758'
+park place:
+  :latitude: '40.713003'
+  :longitude: '-74.008324'
+pennsylvania:
+  :latitude: '40.755295'
+  :longitude: '-73.98175'
+plaza:
+  :latitude: '40.759088'
+  :longitude: '-73.979543'
+randalls island:
+  :latitude: '40.7891291'
+  :longitude: '-73.9271644'
+rockefeller center:
+  :latitude: '40.7590881'
+  :longitude: '-73.9795435'
+roosevelt:
+  :latitude: '40.767151'
+  :longitude: '-73.967626'
+sheridan square:
+  :latitude: '40.7329924'
+  :longitude: '-74.0021478'
+sutton:
+  :latitude: '40.75802'
+  :longitude: '-73.960167'
+times square:
+  :latitude: '40.758577'
+  :longitude: '-73.984464'
+triboro:
+  :latitude: '40.7795849'
+  :longitude: '-73.9265846'
+turtle bay:
+  :latitude: '40.7540369'
+  :longitude: '-73.9668408'
+washington heights:
+  :latitude: '40.8401451'
+  :longitude: '-73.9389213'
+yorkville:
+  :latitude: '40.7762231'
+  :longitude: '-73.9492079'
+queens:
+  :latitude: '40.7282239'
+  :longitude: '-73.7948516'
+borden:
+  :latitude: '40.7367709'
+  :longitude: '-73.9289394'
+flushing:
+  :latitude: '40.7658085'
+  :longitude: '-73.8330844'
+jackson heights:
+  :latitude: '40.7556818'
+  :longitude: '-73.8830701'
+jamaica:
+  :latitude: '40.702677'
+  :longitude: '-73.7889689'
+long island city:
+  :latitude: '40.744679'
+  :longitude: '-73.9485424'
+maspeth:
+  :latitude: '40.7294018'
+  :longitude: '-73.9065883'
+rego park:
+  :latitude: '40.7255722'
+  :longitude: '-73.8624893'
+richmond hill:
+  :latitude: '40.6958108'
+  :longitude: '-73.8272029'
+sunnyside:
+  :latitude: '40.7432759'
+  :longitude: '-73.9196324'
+staten island:
+  :latitude: '40.5795317'
+  :longitude: '-74.1502007'
+fox hills:
+  :latitude: '40.6151042'
+  :longitude: '-74.0845858'
+fresh kills:
+  :latitude: '40.56417'
+  :longitude: '-74.18667'
+wainwright:
+  :latitude: '40.552445'
+  :longitude: '-74.170149'
+willowbrook:
+  :latitude: '40.6031598'
+  :longitude: '-74.1384762'
+woodrow:
+  :latitude: '40.5394173'
+  :longitude: '-74.1915177'
+westchester:
+  :latitude: '41.1220194'
+  :longitude: '-73.7948516'
+ardsley village:
+  :latitude: '41.0106531'
+  :longitude: '-73.8437452'
+bedford town:
+  :latitude: '41.204262'
+  :longitude: '-73.6437397'
+briarcliff manor village:
+  :latitude: '41.1402322'
+  :longitude: '-73.840231'
+briarcliff ossining:
+  :latitude: '41.1765402'
+  :longitude: '-73.8400785'
+bronxville village:
+  :latitude: '40.9381544'
+  :longitude: '-73.8320784'
+buchanan village:
+  :latitude: '41.2620383'
+  :longitude: '-73.9381943'
+cortlandt town:
+  :latitude: '41.2804112'
+  :longitude: '-73.8714752'
+croton-on-hudson village:
+  :latitude: '41.2084278'
+  :longitude: '-73.8912481'
+dobbs ferry village:
+  :latitude: '41.0145418'
+  :longitude: '-73.872635'
+eastchester town:
+  :latitude: '40.9581609'
+  :longitude: '-73.807821'
+elmsford village:
+  :latitude: '41.0550969'
+  :longitude: '-73.8201337'
+greenburgh town:
+  :latitude: '41.0452968'
+  :longitude: '-73.7902829'
+harrison village:
+  :latitude: '40.9689871'
+  :longitude: '-73.71263'
+hastings-on-hudson village:
+  :latitude: '40.994542'
+  :longitude: '-73.8787461'
+irvington village:
+  :latitude: '41.0391'
+  :longitude: '-73.867'
+larchmont village:
+  :latitude: '40.9278769'
+  :longitude: '-73.7517983'
+mamaroneck town:
+  :latitude: '40.9487097'
+  :longitude: '-73.7326309'
+mamaroneck village:
+  :latitude: '40.9487097'
+  :longitude: '-73.7326309'
+mount kisco (town of bedford):
+  :latitude: '41.2042616'
+  :longitude: '-73.7270761'
+mount kisco (town of new castle):
+  :latitude: '41.2042616'
+  :longitude: '-73.7270761'
+mount kisco village:
+  :latitude: '41.2042616'
+  :longitude: '-73.7270761'
+mount pleasant town:
+  :latitude: '41.110493'
+  :longitude: '-73.77383'
+mount vernon city:
+  :latitude: '40.9125992'
+  :longitude: '-73.8370786'
+new castle town:
+  :latitude: '41.155377'
+  :longitude: '-73.774475'
+new rochelle city:
+  :latitude: '40.9114882'
+  :longitude: '-73.7823549'
+north castle town:
+  :latitude: '40.792028'
+  :longitude: '-73.825967'
+north pelham:
+  :latitude: '40.714353'
+  :longitude: '-74.005973'
+ossining town:
+  :latitude: '41.1628731'
+  :longitude: '-73.8615246'
+ossining village:
+  :latitude: '41.1628731'
+  :longitude: '-73.8615246'
+peekskill city:
+  :latitude: '41.2900939'
+  :longitude: '-73.9204158'
+pelham manor village:
+  :latitude: '40.8953773'
+  :longitude: '-73.8070778'
+pelham village:
+  :latitude: '40.911'
+  :longitude: '-73.8083149'
+pleasantville village:
+  :latitude: '41.1333371'
+  :longitude: '-73.7924152'
+port chester village:
+  :latitude: '41.0017643'
+  :longitude: '-73.6656834'
+rye brook village:
+  :latitude: '41.0192641'
+  :longitude: '-73.6834621'
+rye city:
+  :latitude: '40.9806535'
+  :longitude: '-73.6837399'
+rye town:
+  :latitude: '40.9806535'
+  :longitude: '-73.6837399'
+scarsdale village:
+  :latitude: '41.0050977'
+  :longitude: '-73.7845768'
+sleepy hollow:
+  :latitude: '41.085652'
+  :longitude: '-73.8584684'
+somers town:
+  :latitude: '41.327877'
+  :longitude: '-73.694823'
+tarrytown village:
+  :latitude: '41.0762077'
+  :longitude: '-73.8587461'
+tuckahoe village:
+  :latitude: '40.9503764'
+  :longitude: '-73.827356'
+white plains city:
+  :latitude: '41.0339862'
+  :longitude: '-73.7629097'
+yonkers city:
+  :latitude: '40.9312099'
+  :longitude: '-73.8987469'
+yorktown town:
+  :latitude: '41.2956496'
+  :longitude: '-73.80819'
