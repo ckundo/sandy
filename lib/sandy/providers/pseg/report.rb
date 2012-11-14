@@ -3,6 +3,8 @@ require 'xml'
 module Sandy::Provider
   module PSEG
     class Report
+      include Sandy::Provider::CoordinateCache
+
       attr_reader :areas
 
       def initialize
@@ -24,7 +26,14 @@ module Sandy::Provider
           begin
             name = p.find_first('ms:county').content.to_s
             customers_affected = p.find_first('ms:outage').content.to_s
-            arr << Sandy::Area.new(customers_affected, name)
+
+            latitude, longitude = cached_coordinates_for name.downcase
+
+            options = {
+              :latitude => latitude,
+              :longitude => longitude
+            }
+            arr << Sandy::Area.new(customers_affected, name, options)
           rescue
             # FIXME: raise warning if any region is empty.
             next
@@ -35,6 +44,10 @@ module Sandy::Provider
 
       def pseg_url
         'http://www.pseg.com/outagemap/Customer%20Outage%20Application/Web%20Pages/GML/State.gml'
+      end
+
+      def path
+        File.dirname(__FILE__)
       end
     end
   end

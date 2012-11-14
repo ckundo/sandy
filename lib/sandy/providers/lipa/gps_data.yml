@@ -1,0 +1,793 @@
+---
+nassau:
+  :latitude: '40.6546145'
+  :longitude: '-73.5594128'
+hempstead:
+  :latitude: '40.7062128'
+  :longitude: '-73.6187397'
+atlantic beach:
+  :latitude: '40.5879914'
+  :longitude: '-73.6624507'
+baldwin:
+  :latitude: '40.6686336'
+  :longitude: '-73.6119129'
+baldwin harbor:
+  :latitude: '40.62995'
+  :longitude: '-73.602256'
+bellerose:
+  :latitude: '40.724269'
+  :longitude: '-73.7151313'
+bellmore:
+  :latitude: '40.6687125'
+  :longitude: '-73.5270709'
+cedarhurst:
+  :latitude: '40.6228819'
+  :longitude: '-73.7242983'
+east meadow:
+  :latitude: '40.7139898'
+  :longitude: '-73.5590157'
+east rockaway:
+  :latitude: '40.6420477'
+  :longitude: '-73.6695747'
+elmont:
+  :latitude: '40.700936'
+  :longitude: '-73.712909'
+franklin square:
+  :latitude: '40.7073244'
+  :longitude: '-73.6759635'
+garden city:
+  :latitude: '40.7267682'
+  :longitude: '-73.6342954'
+garden city south:
+  :latitude: '40.7123242'
+  :longitude: '-73.6609631'
+hewlett:
+  :latitude: '40.6431591'
+  :longitude: '-73.6956864'
+hewlett bay park:
+  :latitude: '40.6331592'
+  :longitude: '-73.6954087'
+hewlett harbor:
+  :latitude: '40.6362146'
+  :longitude: '-73.6815194'
+hewlett neck:
+  :latitude: '40.623437'
+  :longitude: '-73.6981866'
+inwood:
+  :latitude: '40.6220487'
+  :longitude: '-73.7467989'
+island park:
+  :latitude: '40.6042705'
+  :longitude: '-73.6554078'
+lakeview:
+  :latitude: '40.6751999'
+  :longitude: '-73.651434'
+lawrence:
+  :latitude: '40.6156599'
+  :longitude: '-73.7295763'
+levittown:
+  :latitude: '40.7259336'
+  :longitude: '-73.5142921'
+lido beach:
+  :latitude: '40.5879914'
+  :longitude: '-73.6624507'
+long beach:
+  :latitude: '40.5884373'
+  :longitude: '-73.657908'
+lynbrook:
+  :latitude: '40.6548253'
+  :longitude: '-73.6717969'
+malverne:
+  :latitude: '40.6789916'
+  :longitude: '-73.6740191'
+merrick:
+  :latitude: '40.6628795'
+  :longitude: '-73.551516'
+north bellmore:
+  :latitude: '40.69149'
+  :longitude: '-73.5334597'
+north merrick:
+  :latitude: '40.6912125'
+  :longitude: '-73.5631827'
+north valley stream:
+  :latitude: '40.6851028'
+  :longitude: '-73.7017976'
+north wantagh:
+  :latitude: 
+  :longitude: 
+oceanside:
+  :latitude: '40.6387141'
+  :longitude: '-73.6401296'
+rockville centre:
+  :latitude: '40.6587138'
+  :longitude: '-73.6412406'
+roosevelt:
+  :latitude: '40.678713'
+  :longitude: '-73.5890168'
+salisbury:
+  :latitude: '40.7456559'
+  :longitude: '-73.5601266'
+seaford:
+  :latitude: '40.6659344'
+  :longitude: '-73.4881809'
+south floral park:
+  :latitude: '40.714269'
+  :longitude: '-73.7001309'
+south hempstead:
+  :latitude: '40.6809354'
+  :longitude: '-73.6154064'
+south valley stream:
+  :latitude: '40.6559368'
+  :longitude: '-73.7176315'
+stewart manor:
+  :latitude: '40.7192688'
+  :longitude: '-73.6884637'
+uniondale:
+  :latitude: '40.7003793'
+  :longitude: '-73.5929056'
+valley stream:
+  :latitude: '40.6642699'
+  :longitude: '-73.7084645'
+wantagh:
+  :latitude: '40.6837121'
+  :longitude: '-73.5101258'
+west hempstead:
+  :latitude: '40.7048242'
+  :longitude: '-73.6501295'
+woodmere:
+  :latitude: '40.6320482'
+  :longitude: '-73.7126314'
+woodsburgh:
+  :latitude: '40.6239928'
+  :longitude: '-73.7084646'
+north hempstead:
+  :latitude: '40.8099413'
+  :longitude: '-73.6771662'
+albertson:
+  :latitude: '40.7734341'
+  :longitude: '-73.6431844'
+baxter estates:
+  :latitude: '40.8348225'
+  :longitude: '-73.6954078'
+carle place:
+  :latitude: '40.7526008'
+  :longitude: '-73.6104058'
+east hills:
+  :latitude: '40.7937115'
+  :longitude: '-73.6270726'
+east williston:
+  :latitude: '40.7584343'
+  :longitude: '-73.6348509'
+floral park:
+  :latitude: '40.7237133'
+  :longitude: '-73.7048532'
+flower hill:
+  :latitude: '40.8073228'
+  :longitude: '-73.6812409'
+garden city park:
+  :latitude: '40.7409348'
+  :longitude: '-73.6626297'
+great neck:
+  :latitude: '40.8006567'
+  :longitude: '-73.7284647'
+great neck estates:
+  :latitude: '40.7870459'
+  :longitude: '-73.7367983'
+great neck plaza:
+  :latitude: '40.7867681'
+  :longitude: '-73.7265202'
+herricks:
+  :latitude: '40.7553791'
+  :longitude: '-73.6667963'
+kensington:
+  :latitude: '40.7934344'
+  :longitude: '-73.7220756'
+kings point:
+  :latitude: '40.8198231'
+  :longitude: '-73.7351316'
+lake success:
+  :latitude: '40.7706572'
+  :longitude: '-73.7176312'
+manhasset:
+  :latitude: '40.7978787'
+  :longitude: '-73.6995749'
+manhasset hills:
+  :latitude: '40.7592681'
+  :longitude: '-73.6798522'
+manorhaven:
+  :latitude: '40.8431559'
+  :longitude: '-73.714853'
+mineola:
+  :latitude: '40.7492678'
+  :longitude: '-73.6406845'
+munsey park:
+  :latitude: '40.7987119'
+  :longitude: '-73.679852'
+new cassel:
+  :latitude: '40.7589892'
+  :longitude: '-73.5695712'
+new hyde park:
+  :latitude: '40.7351018'
+  :longitude: '-73.6879082'
+north hills:
+  :latitude: '40.7809343'
+  :longitude: '-73.6765187'
+north new hyde park:
+  :latitude: '40.7431574'
+  :longitude: '-73.6931861'
+old westbury:
+  :latitude: '40.7887113'
+  :longitude: '-73.5995717'
+plandome:
+  :latitude: '40.8067675'
+  :longitude: '-73.7034639'
+plandome heights:
+  :latitude: '40.8026009'
+  :longitude: '-73.7042972'
+plandome manor:
+  :latitude: '40.8162116'
+  :longitude: '-73.6973524'
+port washington:
+  :latitude: '40.8256561'
+  :longitude: '-73.6981858'
+port washington north:
+  :latitude: '40.8448224'
+  :longitude: '-73.7017969'
+roslyn:
+  :latitude: '40.7998227'
+  :longitude: '-73.6509622'
+roslyn estates:
+  :latitude: '40.7942674'
+  :longitude: '-73.6604069'
+roslyn harbor:
+  :latitude: '40.8164891'
+  :longitude: '-73.6370727'
+roslyn heights:
+  :latitude: '40.7887117'
+  :longitude: '-73.6473511'
+russell gardens:
+  :latitude: '40.7812125'
+  :longitude: '-73.7245758'
+saddle rock:
+  :latitude: '40.794268'
+  :longitude: '-73.7484654'
+sands point:
+  :latitude: '40.8517669'
+  :longitude: '-73.718742'
+searingtown:
+  :latitude: '40.7748231'
+  :longitude: '-73.6556848'
+thomaston:
+  :latitude: '40.7862123'
+  :longitude: '-73.7137421'
+university gardens:
+  :latitude: '40.7773236'
+  :longitude: '-73.7226313'
+westbury:
+  :latitude: '40.7556561'
+  :longitude: '-73.5876273'
+williston park:
+  :latitude: '40.75649'
+  :longitude: '-73.6448513'
+oyster bay:
+  :latitude: '40.8656543'
+  :longitude: '-73.5320685'
+bayville:
+  :latitude: '40.9106541'
+  :longitude: '-73.5620689'
+bethpage:
+  :latitude: '40.7442664'
+  :longitude: '-73.4820687'
+brookville:
+  :latitude: '40.8131553'
+  :longitude: '-73.5673482'
+centre island:
+  :latitude: '40.9017651'
+  :longitude: '-73.5198453'
+cove neck:
+  :latitude: '40.8823207'
+  :longitude: '-73.5059562'
+east massapequa:
+  :latitude: '40.6738889'
+  :longitude: '-73.4358333'
+east norwich:
+  :latitude: '40.8467657'
+  :longitude: '-73.5351245'
+farmingdale:
+  :latitude: '40.7325997'
+  :longitude: '-73.4454009'
+glen cove:
+  :latitude: '40.8623217'
+  :longitude: '-73.6337389'
+glen head:
+  :latitude: '40.8353776'
+  :longitude: '-73.6237388'
+glenwood landing:
+  :latitude: '40.8306556'
+  :longitude: '-73.6387393'
+hicksville:
+  :latitude: '40.7684331'
+  :longitude: '-73.5251253'
+jericho:
+  :latitude: '40.7920441'
+  :longitude: '-73.5398476'
+lattingtown:
+  :latitude: '40.8953767'
+  :longitude: '-73.6009595'
+laurel hollow:
+  :latitude: '40.8567653'
+  :longitude: '-73.4695665'
+locust valley:
+  :latitude: '40.8759324'
+  :longitude: '-73.5970707'
+massapequa:
+  :latitude: '40.6806563'
+  :longitude: '-73.4742914'
+massapequa park:
+  :latitude: '40.6804893'
+  :longitude: '-73.4553119'
+matinecock:
+  :latitude: '40.864367'
+  :longitude: '-73.584038'
+mill neck:
+  :latitude: '40.8870431'
+  :longitude: '-73.5551246'
+muttontown:
+  :latitude: '40.8239883'
+  :longitude: '-73.5476252'
+north massapequa:
+  :latitude: '40.7009337'
+  :longitude: '-73.4620685'
+old bethpage:
+  :latitude: '40.7625993'
+  :longitude: '-73.4531786'
+old brookville:
+  :latitude: '40.8320441'
+  :longitude: '-73.6048493'
+oyster bay cove:
+  :latitude: '40.8709319'
+  :longitude: '-73.5109566'
+plainedge:
+  :latitude: '40.7173224'
+  :longitude: '-73.4837357'
+plainview:
+  :latitude: '40.7764882'
+  :longitude: '-73.4673454'
+sea cliff:
+  :latitude: '40.8489887'
+  :longitude: '-73.6448505'
+south farmingdale:
+  :latitude: '40.7206555'
+  :longitude: '-73.4401232'
+syosset:
+  :latitude: '40.8262101'
+  :longitude: '-73.502068'
+upper brookville:
+  :latitude: '40.8387103'
+  :longitude: '-73.5651256'
+woodbury:
+  :latitude: '40.8256545'
+  :longitude: '-73.4676225'
+rockaway peninsula:
+  :latitude: '40.628456'
+  :longitude: '-73.736961'
+suffolk:
+  :latitude: '40.7891424'
+  :longitude: '-73.1349605'
+babylon:
+  :latitude: '40.6956552'
+  :longitude: '-73.3256753'
+amityville:
+  :latitude: '40.6789893'
+  :longitude: '-73.4170673'
+copiague:
+  :latitude: '40.6814892'
+  :longitude: '-73.3998445'
+deer park:
+  :latitude: '40.7617653'
+  :longitude: '-73.3292857'
+east farmingdale:
+  :latitude: '40.7292663'
+  :longitude: '-73.416789'
+jones/gilgo/oak/captree beach:
+  :latitude: '40.7891424'
+  :longitude: '-73.1349605'
+lindenhurst:
+  :latitude: '40.6867667'
+  :longitude: '-73.3734547'
+north amityville:
+  :latitude: '40.6976001'
+  :longitude: '-73.425123'
+north babylon:
+  :latitude: '40.7164881'
+  :longitude: '-73.3217861'
+north lindenhurst:
+  :latitude: '40.7142663'
+  :longitude: '-73.3815101'
+west babylon:
+  :latitude: '40.718155'
+  :longitude: '-73.354287'
+wyandanch:
+  :latitude: '40.7539878'
+  :longitude: '-73.360398'
+brookhaven:
+  :latitude: '40.7792653'
+  :longitude: '-72.9153827'
+belle terre:
+  :latitude: '40.9598208'
+  :longitude: '-73.067884'
+bellport:
+  :latitude: '40.7570429'
+  :longitude: '-72.9392727'
+blue point:
+  :latitude: '40.7439872'
+  :longitude: '-73.0345539'
+center moriches:
+  :latitude: '40.8003767'
+  :longitude: '-72.7898233'
+centereach:
+  :latitude: '40.8584316'
+  :longitude: '-73.0995539'
+coram:
+  :latitude: '40.8687096'
+  :longitude: '-73.0014946'
+east moriches:
+  :latitude: '40.8050989'
+  :longitude: '-72.7609336'
+east patchogue:
+  :latitude: '40.7670427'
+  :longitude: '-72.9962189'
+east shoreham:
+  :latitude: '40.9448207'
+  :longitude: '-72.8795466'
+farmingville:
+  :latitude: '40.8312096'
+  :longitude: '-73.029552'
+fire island:
+  :latitude: '40.7891424'
+  :longitude: '-73.1349605'
+holtsville:
+  :latitude: '40.8153762'
+  :longitude: '-73.0451085'
+lake grove:
+  :latitude: '40.8528761'
+  :longitude: '-73.1151102'
+lake ronkonkoma:
+  :latitude: '40.827754'
+  :longitude: '-73.1216833'
+manorville:
+  :latitude: '40.8737096'
+  :longitude: '-72.807879'
+mastic:
+  :latitude: '40.8020431'
+  :longitude: '-72.8409359'
+mastic beach:
+  :latitude: '40.7667655'
+  :longitude: '-72.8520476'
+medford:
+  :latitude: '40.8175985'
+  :longitude: '-73.0001068'
+middle island:
+  :latitude: '40.8849087'
+  :longitude: '-72.9432825'
+miller place:
+  :latitude: '40.9598212'
+  :longitude: '-72.9962148'
+mount sinai:
+  :latitude: '40.9470432'
+  :longitude: '-73.0295495'
+north bellport:
+  :latitude: '40.7742652'
+  :longitude: '-72.9428836'
+north patchogue:
+  :latitude: 
+  :longitude: 
+old field:
+  :latitude: '40.9598205'
+  :longitude: '-73.129553'
+patchogue:
+  :latitude: '40.7656538'
+  :longitude: '-73.0151084'
+poquott:
+  :latitude: '40.9509318'
+  :longitude: '-73.0839959'
+port jefferson:
+  :latitude: '40.9464875'
+  :longitude: '-73.0692732'
+port jefferson station:
+  :latitude: '40.9253764'
+  :longitude: '-73.0473284'
+ridge:
+  :latitude: '40.8939875'
+  :longitude: '-72.8959364'
+rocky point:
+  :latitude: '40.9525987'
+  :longitude: '-72.9253805'
+selden:
+  :latitude: '40.8664873'
+  :longitude: '-73.0356625'
+setauket-east setauket:
+  :latitude: '40.9293759'
+  :longitude: '-73.1025502'
+shirley:
+  :latitude: '40.8014876'
+  :longitude: '-72.8676033'
+shoreham:
+  :latitude: '40.9573208'
+  :longitude: '-72.9076025'
+sound beach:
+  :latitude: '40.9562099'
+  :longitude: '-72.9678811'
+stony brook:
+  :latitude: '40.9256538'
+  :longitude: '-73.1409429'
+terryville:
+  :latitude: '40.9089874'
+  :longitude: '-73.0651072'
+yaphank:
+  :latitude: '40.8367653'
+  :longitude: '-72.9170487'
+east hampton:
+  :latitude: '40.9634335'
+  :longitude: '-72.1848009'
+amagansett:
+  :latitude: '40.9737117'
+  :longitude: '-72.1436884'
+montauk:
+  :latitude: '41.0359353'
+  :longitude: '-71.9545146'
+northwest harbor:
+  :latitude: '41.0098216'
+  :longitude: '-72.2211911'
+springs:
+  :latitude: '41.0162112'
+  :longitude: '-72.1592444'
+wainscott:
+  :latitude: '40.9367664'
+  :longitude: '-72.2428587'
+huntington:
+  :latitude: '40.8681539'
+  :longitude: '-73.425676'
+asharoken:
+  :latitude: '40.9278757'
+  :longitude: '-73.3598395'
+centerport:
+  :latitude: 
+  :longitude: 
+cold spring harbor:
+  :latitude: '40.8714873'
+  :longitude: '-73.456788'
+commack:
+  :latitude: '40.8428759'
+  :longitude: '-73.2928943'
+dix hills:
+  :latitude: '40.8048207'
+  :longitude: '-73.3362298'
+east northport:
+  :latitude: '40.8767647'
+  :longitude: '-73.3245613'
+eatons neck:
+  :latitude: '40.9306535'
+  :longitude: '-73.4015074'
+elwood:
+  :latitude: '40.8453761'
+  :longitude: '-73.3351179'
+greenlawn:
+  :latitude: '40.8689871'
+  :longitude: '-73.3651185'
+halesite:
+  :latitude: '40.8884315'
+  :longitude: '-73.4153975'
+huntington bay:
+  :latitude: '40.7891424'
+  :longitude: '-73.1349605'
+huntington station:
+  :latitude: '40.8534318'
+  :longitude: '-73.4115091'
+lloyd harbor:
+  :latitude: '40.9034315'
+  :longitude: '-73.4598432'
+melville:
+  :latitude: '40.7934322'
+  :longitude: '-73.4151214'
+northport:
+  :latitude: '40.9009313'
+  :longitude: '-73.3431727'
+south huntington:
+  :latitude: '40.8237097'
+  :longitude: '-73.3987314'
+west hills:
+  :latitude: '40.8162098'
+  :longitude: '-73.4323438'
+islip:
+  :latitude: '40.7298207'
+  :longitude: '-73.2103934'
+bay shore:
+  :latitude: '40.7250986'
+  :longitude: '-73.2453946'
+bayport:
+  :latitude: '40.7384317'
+  :longitude: '-73.0506656'
+baywood:
+  :latitude: '40.7513889'
+  :longitude: '-73.2905556'
+bohemia:
+  :latitude: '40.7692649'
+  :longitude: '-73.1151117'
+brentwood:
+  :latitude: '40.7812093'
+  :longitude: '-73.2462273'
+brightwaters:
+  :latitude: '40.7209321'
+  :longitude: '-73.2673399'
+central islip:
+  :latitude: '40.7906538'
+  :longitude: '-73.2017811'
+east islip:
+  :latitude: '40.7320429'
+  :longitude: '-73.1856703'
+holbrook:
+  :latitude: '40.8123205'
+  :longitude: '-73.0784429'
+islandia:
+  :latitude: '40.8042649'
+  :longitude: '-73.1690019'
+islip terrace:
+  :latitude: 
+  :longitude: 
+north bay shore:
+  :latitude: '40.7590239'
+  :longitude: '-73.260978'
+north great river:
+  :latitude: '40.7499164'
+  :longitude: '-73.1677453'
+oakdale:
+  :latitude: '40.7439872'
+  :longitude: '-73.1387242'
+ronkonkoma:
+  :latitude: 
+  :longitude: 
+sayville:
+  :latitude: '40.7359317'
+  :longitude: '-73.0820556'
+west bay shore:
+  :latitude: '40.7087102'
+  :longitude: '-73.2812293'
+west islip:
+  :latitude: '40.7062104'
+  :longitude: '-73.3062302'
+west sayville:
+  :latitude: '40.7278763'
+  :longitude: '-73.0976118'
+riverhead:
+  :latitude: '40.9170435'
+  :longitude: '-72.6620402'
+aquebogue:
+  :latitude: '40.9445438'
+  :longitude: '-72.6270382'
+calverton:
+  :latitude: '40.9064873'
+  :longitude: '-72.7434331'
+jamesport:
+  :latitude: '40.9495443'
+  :longitude: '-72.58148'
+northville:
+  :latitude: '40.9700994'
+  :longitude: '-72.6189819'
+wading river:
+  :latitude: '40.9503762'
+  :longitude: '-72.8426016'
+shelter island:
+  :latitude: '41.0681549'
+  :longitude: '-72.3386939'
+dering harbor:
+  :latitude: '41.092877'
+  :longitude: '-72.3467497'
+shelter island heights:
+  :latitude: '41.0839883'
+  :longitude: '-72.3559166'
+smithtown:
+  :latitude: '40.8559314'
+  :longitude: '-73.2006687'
+fort salonga:
+  :latitude: '40.9125979'
+  :longitude: '-73.3009489'
+hauppauge:
+  :latitude: '40.8256536'
+  :longitude: '-73.2026138'
+head of the harbor:
+  :latitude: '40.9034315'
+  :longitude: '-73.1578885'
+kings park:
+  :latitude: '40.886209'
+  :longitude: '-73.2573369'
+nesconset:
+  :latitude: '40.8520426'
+  :longitude: '-73.1540004'
+nissequogue:
+  :latitude: '40.9039869'
+  :longitude: '-73.1978899'
+st. james:
+  :latitude: '40.8754335'
+  :longitude: '-73.1526623'
+village of the branch:
+  :latitude: '40.8562092'
+  :longitude: '-73.1873349'
+southampton:
+  :latitude: '40.884267'
+  :longitude: '-72.3895296'
+bridgehampton:
+  :latitude: '40.9378777'
+  :longitude: '-72.3009158'
+east quogue:
+  :latitude: '40.8406554'
+  :longitude: '-72.5814814'
+flanders:
+  :latitude: '40.9034328'
+  :longitude: '-72.6175936'
+hampton bays:
+  :latitude: '40.8689892'
+  :longitude: '-72.5175893'
+north haven:
+  :latitude: '41.0128773'
+  :longitude: '-72.31286'
+north sea:
+  :latitude: '40.9328781'
+  :longitude: '-72.4142518'
+noyack:
+  :latitude: '40.9956553'
+  :longitude: '-72.341194'
+pine valley:
+  :latitude: '40.8959324'
+  :longitude: '-72.6662072'
+quogue:
+  :latitude: '40.8231553'
+  :longitude: '-72.6095384'
+remsenburg-speonk:
+  :latitude: '40.8075'
+  :longitude: '-72.70917'
+riverside:
+  :latitude: '40.9077778'
+  :longitude: '-72.6625'
+sag harbor:
+  :latitude: '40.9978773'
+  :longitude: '-72.2925819'
+sagaponack:
+  :latitude: '40.9253776'
+  :longitude: '-72.2781375'
+shinnecock hills:
+  :latitude: '40.8909338'
+  :longitude: '-72.4636982'
+watermill:
+  :latitude: '40.9178346'
+  :longitude: '-72.3478839'
+westhampton:
+  :latitude: '40.8245437'
+  :longitude: '-72.6662075'
+westhampton beach:
+  :latitude: '40.8093799'
+  :longitude: '-72.6458277'
+southold:
+  :latitude: '41.0648222'
+  :longitude: '-72.4261962'
+cutchogue:
+  :latitude: '41.0106563'
+  :longitude: '-72.4850859'
+greenport:
+  :latitude: '41.1034326'
+  :longitude: '-72.3592501'
+greenport west:
+  :latitude: '41.099483'
+  :longitude: '-72.374925'
+laurel:
+  :latitude: '40.9695445'
+  :longitude: '-72.5620344'
+mattituck:
+  :latitude: '40.9912115'
+  :longitude: '-72.5342547'
+orient point:
+  :latitude: '41.1523202'
+  :longitude: '-72.251191'
+peconic:
+  :latitude: '41.0478782'
+  :longitude: '-72.4631413'

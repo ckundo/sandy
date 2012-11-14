@@ -1,0 +1,43 @@
+---
+bergen:
+  :latitude: '40.9262762'
+  :longitude: '-74.07701'
+burlington:
+  :latitude: '40.0647377'
+  :longitude: '-74.8409196'
+camden:
+  :latitude: '39.9259463'
+  :longitude: '-75.1196199'
+essex:
+  :latitude: '40.7947466'
+  :longitude: '-74.2648829'
+gloucester:
+  :latitude: '39.8025'
+  :longitude: '-75.0447222'
+hudson:
+  :latitude: '40.7453199'
+  :longitude: '-74.0535126'
+hunterdon:
+  :latitude: '40.5669515'
+  :longitude: '-74.9208772'
+mercer:
+  :latitude: '40.3028533'
+  :longitude: '-74.7337069'
+middlesex:
+  :latitude: '40.572603'
+  :longitude: '-74.4926541'
+monmouth:
+  :latitude: '40.2589455'
+  :longitude: '-74.123996'
+morris:
+  :latitude: '40.8336038'
+  :longitude: '-74.5463282'
+passaic:
+  :latitude: '40.8567662'
+  :longitude: '-74.1284764'
+somerset:
+  :latitude: '40.5292099'
+  :longitude: '-74.6400432'
+union:
+  :latitude: '40.6975898'
+  :longitude: '-74.2631635'
