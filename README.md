@@ -5,10 +5,7 @@
 Sandy is a rubygem for consuming power outage data for the Greater New York area. For a given area, retrieve number of outages,
 as well as total customers, lat/lng, and estimated time of recovery (depending on the provider). 
 
-Currently supports ConEd and LIPA.
-
-_Note: LIPA has pulled data for Rockaway Peninsula, Long Beach, Atlantic Beach,  and Fire Island.
-This will limit the behavior of that provider class._
+Currently supports ConEd (NYC), LIPA (Long Island), and PSEG (NJ).
 
 ## Usage
 
