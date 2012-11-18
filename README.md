@@ -26,11 +26,11 @@ Currently supports ConEd (NYC), LIPA (Long Island), and PSEG (NJ).
 
 ### Example
 
-    report = Sandy::Provider::LIPA::Report.new
+    report = Sandy::Provider::ConEd::Report.new
 
-    regions = report.regions
-    regions.each do |region|
-      puts "#{region.name}, #{region.customers_affected}"
+    areas = report.areas
+    areas.each do |area|
+      puts "#{area.name}, #{area.customers_affected}"
     end
 
     # => 
@@ -41,21 +41,6 @@ Currently supports ConEd (NYC), LIPA (Long Island), and PSEG (NJ).
     Queens, 85057
     Staten Island, 58043
     Westchester, 123571
-
-Neighborhoods are a subset of regions:
-
-    neighborhoods = report.neighborhoods
-    neighborhoods.each do |neighborhood|
-      puts "#{neighborhood.name} (#{neighborhood.latitude}, #{neighborhood.longitude}) #{neighborhood.customers_affected} out of #{neighborhood.total_customers}"
-    end
-
-    # => 
-
-    Central Bronx (40.82, -73.86) 26 out of 44452
-    Fordham (40.86, -73.9) 164 out of 114772
-    Northeast Bronx (40.87, -73.82) 13139 out of 79942
-    Riverdale (40.89, -73.9) 3801 out of 34772
-    ...
 
 ### A note on Polling
 
