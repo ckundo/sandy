@@ -20,12 +20,19 @@ module Sandy
       @children = options[:children] || []
     end
 
+    def to_s
+      @name
+    end
+
     def to_json(*a)
-      hash = {}
-      self.instance_variables.each do |var|
-        hash[var[1..-1]] = self.instance_variable_get var
-      end
-      hash.to_json
+      {"name" => @name, 
+       "customers_affected" => @customers_affected,
+       "parent" => @parent.to_s,
+       "total_customers" => @total_customers,
+       "latitude" => @latitude,
+       "longitude" => @longitude, 
+       "estimated_recovery_time" => @longitude,
+       "children" => @children }.to_json
     end
   end
 end

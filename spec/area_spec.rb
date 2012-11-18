@@ -9,11 +9,19 @@ describe Sandy::Area do
     it { should == customers_affected }
   end
 
+  describe "#to_s" do
+    subject { Sandy::Area.new(customers_affected, "Manhattan").to_s }
+    it { should == "Manhattan" }
+  end
+
   describe "#to_json" do
-    subject { Sandy::Area.new(customers_affected, nil).to_json }
+    let(:parent) { Sandy::Area.new(0, "Manhattan") }
+    subject { Sandy::Area.new(customers_affected, 
+                              nil, { parent: parent }).to_json }
+
     it { should == {"name" => nil, 
                     "customers_affected" => customers_affected,
-                    "parent" => nil, 
+                    "parent" => parent.name,
                     "total_customers" => nil,
                     "latitude" => nil,
                     "longitude" => nil, 
