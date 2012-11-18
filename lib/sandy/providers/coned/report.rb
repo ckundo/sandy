@@ -18,8 +18,7 @@ module Sandy::Provider
       end
 
       def to_json(*a)
-        hash = {}
-        { "areas" => @areas.map(&:to_json) }
+        { "report" => { "areas" => @areas } }.to_json
       end
 
       private

@@ -11,8 +11,10 @@ describe Sandy::Provider::ConEd::Report do
   end
 
   describe "#to_json" do
-    it 'has an array of areas' do
-      Sandy::Provider::ConEd::Report.new.to_json["areas"].should be_an_instance_of Array
+    subject {}
+    it 'has areas' do
+      json = JSON.parse(Sandy::Provider::ConEd::Report.new.to_json)
+      json["report"]["areas"].should_not be_empty
     end
   end
 
