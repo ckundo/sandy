@@ -9,6 +9,18 @@ describe Sandy::Area do
     it { should == customers_affected }
   end
 
+  describe "#to_json" do
+    subject { Sandy::Area.new(customers_affected, nil).to_json }
+    it { should == {"name" => nil, 
+                    "customers_affected" => customers_affected,
+                    "parent" => nil, 
+                    "total_customers" => nil,
+                    "latitude" => nil,
+                    "longitude" => nil, 
+                    "estimated_recovery_time" => nil,
+                    "children" => [] }.to_json }
+  end
+  
   context "with an area name" do
     let(:area_name) { "Battery Park" }
     describe "#name" do

@@ -17,6 +17,11 @@ module Sandy::Provider
         raise LoadError, "ConEd response was not recognizable."
       end
 
+      def to_json(*a)
+        hash = {}
+        { "areas" => @areas.map(&:to_json) }
+      end
+
       private
 
       def coned_url

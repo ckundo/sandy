@@ -17,7 +17,15 @@ module Sandy
       @latitude = options[:latitude]
       @longitude = options[:longitude]
       @estimated_recovery_time = options[:estimated_recovery_time]
-      @children = options[:children]
+      @children = options[:children] || []
+    end
+
+    def to_json(*a)
+      hash = {}
+      self.instance_variables.each do |var|
+        hash[var[1..-1]] = self.instance_variable_get var
+      end
+      hash.to_json
     end
   end
 end

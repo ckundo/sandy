@@ -10,6 +10,12 @@ describe Sandy::Provider::ConEd::Report do
     end
   end
 
+  describe "#to_json" do
+    it 'has an array of areas' do
+      Sandy::Provider::ConEd::Report.new.to_json["areas"].should be_an_instance_of Array
+    end
+  end
+
   describe "#areas" do
     subject { Sandy::Provider::ConEd::Report.new.areas }
     it { should be_an_instance_of Array }
