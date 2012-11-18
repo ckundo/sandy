@@ -16,17 +16,25 @@ describe Sandy::Area do
 
   describe "#to_json" do
     let(:parent) { Sandy::Area.new(0, "Manhattan") }
-    subject { Sandy::Area.new(customers_affected, 
-                              nil, { parent: parent }).to_json }
+    let(:current) { Sandy::Area.new(customers_affected, "Downtown", 
+                                 { parent: parent }) }
+    let(:child) { Sandy::Area.new(0, "Battery Park", { parent: current }) }
+    let(:json) { current.to_json }
 
-    it { should == {"name" => nil, 
-                    "customers_affected" => customers_affected,
-                    "parent" => parent.name,
-                    "total_customers" => nil,
-                    "latitude" => nil,
-                    "longitude" => nil, 
-                    "estimated_recovery_time" => nil,
-                    "children" => [] }.to_json }
+    it "parses with the correct values" do
+      JSON.parse(json).should == {"name" => "Downtown", 
+                                  "customers_affected" => customers_affected,
+                                  "parent" => "Manhattan",
+                                  "total_customers" => nil,
+                                  "latitude" => nil,
+                                  "longitude" => nil, 
+                                  "estimated_recovery_time" => nil,
+                                  "children" => [] }
+    end
+
+    it "renders only the name for the parent field" do
+      JSON.parse(json)["parent"].should == "Manhattan"
+    end
   end
   
   context "with an area name" do
