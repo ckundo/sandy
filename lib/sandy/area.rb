@@ -31,7 +31,7 @@ module Sandy
        "total_customers" => @total_customers,
        "latitude" => @latitude,
        "longitude" => @longitude, 
-       "estimated_recovery_time" => @longitude,
+       "estimated_recovery_time" => @estimated_recovery_time,
        "children" => @children }.to_json
     end
   end
