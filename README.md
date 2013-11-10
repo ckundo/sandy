@@ -1,3 +1,5 @@
+11/10/13 *Disclaimer*: I have not been maintaining this gem, and I'm not sure that the Coned endpoints are still available. *It may not work as expected*.
+
 # Sandy 
 [![Build Status](https://secure.travis-ci.org/ckundo/sandy.png)](https://travis-ci.org/ckundo/sandy)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/ckundo/sandy)
